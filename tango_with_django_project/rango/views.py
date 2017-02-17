@@ -1,5 +1,8 @@
 from django.shortcuts import render
 from django.http import HttpResponse
+# Import the Category model
+from rango.models import Category
+
 
 def index(request):
 	context_dict = {'boldmessage' : "I am bold message"}
